@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    // let user = prompt("What is your name?", "enter your name...");
+    // let age = prompt("How old are you?", "enter you age...");
+
+    //
+    // if(user == "Tom"){
+    //   alert(`Hello ${user}`)
+    // }
+    // else if(user != "Tom"){
+    //   alert(`Hello someone who is not Tom (${user})`)
+    // };
+    //
+    // if(age >= 18){
+    //   alert("Welcome to the casino!")
+    // }
+    // else{
+    //   alert("Sorry buddy, not coming in today...")
+    // };
+
+    const students = [];
+
+    for (let i = 0; i < 3; i++){
+      let name = prompt("Add another student!", "Student name...");
+      let age = prompt("Whats their age?", "Student age...");
+
+      students.push({name, age});
+    }
+
+    for (let i = 0; i < 3; i++){
+      console.log(students[i]);
+      alert(`Name: ${students[i].name}, Age: ${students[i].age}`)
+    }
+    // students.push(prompt("Add another student!", "Student name..."));
+
+    function sayHello (name){
+      console.log(`Hello! ${name}`);
+    }
+    sayHello('Kito');
+
+    </script>
+
+  </body>
+</html>
