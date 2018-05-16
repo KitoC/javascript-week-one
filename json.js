@@ -1,0 +1,1 @@
+let j = '{"name":"spot","location":"Australia","walks":[{"location":"Brisbane","distance":10,"timestamp":"2018-05-16T02:33:09.415Z"},{"location":"Byron Bay","distance":20,"timestamp":"2018-05-16T02:33:09.415Z"},{"location":"Sunshine Coast","distance":40,"timestamp":"2018-05-16T02:33:09.415Z"}]}'
